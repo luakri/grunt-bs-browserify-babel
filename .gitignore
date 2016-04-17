@@ -1,0 +1,24 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+
+# Grunt dev files #
+###################
+bower-components/
+node_modules/
+.bundle/
+.sass-cache/
+.tmp
+npm-debug.log
+
+# Build output directies #
+###################
+dist/
+*/dist
+/target
+*/target
+reports/
+#/build
+#*/build
