@@ -13,6 +13,14 @@ node_modules/
 .tmp
 npm-debug.log
 
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+
 # Build output directies #
 ###################
 dist/
@@ -22,3 +30,6 @@ dist/
 reports/
 #/build
 #*/build
+
+# Exclude browserify cache files
+/app-browserify-cache.json
